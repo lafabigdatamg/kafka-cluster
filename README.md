@@ -8,7 +8,7 @@ docker-compose up -d
 docker-compose ps
 
 # access container broker
-CONTAINER_NAME=kafka-cluster-kafka-1-1
+CONTAINER_NAME=kafka-cluster_kafka-1_1
 docker exec -it $CONTAINER_NAME bash
 
 # declare variables on container
